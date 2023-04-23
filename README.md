@@ -1,4 +1,4 @@
-# Computer Vision in Remote Sensing
+# Computer Vision in Remote Sensing Air Pollution
 
 ![](https://media.giphy.com/media/Ju7l5y9osyymQ/giphy.gif)
 
@@ -19,7 +19,11 @@ Machine learning is not just useful for air pollution on a local scale, but also
 ![tempo_1](https://user-images.githubusercontent.com/127624785/233824459-edaecc38-1bd6-4719-be49-5f272be2a631.png)
 
   
-Another way to measure air pollution is through the random forest technique. This technique creates a ‘forest’ of decision trees and uses them to make predictions based on the input features. So a simple forest might have 3 inputs and each input splits into 2 smaller branches, which each branch into 2 more branches which gives us a total of 8 possible choices to choose from for each input. During a study in Poland, it was found that during warmer periods, a random forest produces a better fit than in colder periods. However, this is likely not a universal fit and would differ depending on the climate factors in the study area. In random forest modeling, it was determined that when measuring for nitrogen oxides, the variable with the most importance is traffic flow unsurprisingly since these are expelled from internal combustion engines. When measuring for fine particulate matter (PM2.5), meteorological conditions are most important, particularly wind and temperature because these particles are so small and easily carried through wind flow (Kaminska, 2018). 
+Another way to measure air pollution is through the random forest technique. This technique creates a ‘forest’ of decision trees and uses them to make predictions based on the input features. So a simple forest might have 3 inputs and each input splits into 2 smaller branches, which each branch into 2 more branches which gives us a total of 8 possible choices to choose from for each input.
+
+![Random_forest_diagram_complete](https://user-images.githubusercontent.com/127624785/233825008-c4770763-d8c1-4474-a938-6e31b6a5e4ef.png)
+
+During a study in Poland, it was found that during warmer periods, a random forest produces a better fit than in colder periods. However, this is likely not a universal fit and would differ depending on the climate factors in the study area. In random forest modeling, it was determined that when measuring for nitrogen oxides, the variable with the most importance is traffic flow unsurprisingly since these are expelled from internal combustion engines. When measuring for fine particulate matter (PM2.5), meteorological conditions are most important, particularly wind and temperature because these particles are so small and easily carried through wind flow (Kaminska, 2018). 
 
 ![1-s2 0-S030147971830327X-fx1_lrg](https://user-images.githubusercontent.com/127624785/233824816-5d0501a9-cbbd-4fa2-832f-fec0582c509b.jpg)
 
