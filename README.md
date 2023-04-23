@@ -26,6 +26,7 @@ Another way to measure air pollution is through the random forest technique. Thi
  
 Another method of measuring air pollution is through the development of SVMs or Support Vector Machines. A very simplified explanation of SVMs would be that they divide datasets into two classes that are distinct and unique with a clearly divided separation. However, with data that has a lot of overlap it can be tricky to try and make a clear line of division. During one study in Munich that looked at vehicular air pollution and attempted to predict hourly air pollution, SVM was compared with other classification methods. It found that the SVM would likely work better when working with small amounts of data. A relatively small sample could be enough to build an effective model.  The study also found that ozone can be predicted most accurately, while nitrogen oxides are the hardest to predict. This is likely due to the short lifespan of nitrogen oxides compared to ozone (Humpe, Brehm & Gunzel, 2021).
 
+![tumblr_inline_o9aa8dYRkB1u37g00_540](https://user-images.githubusercontent.com/127624785/233824947-7ffb74bb-52ae-48a8-b917-058222d57179.png)
 
 
 
