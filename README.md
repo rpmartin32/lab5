@@ -6,6 +6,10 @@ We all use transportation methods in our everyday lives, and although they are i
 
 
 Scientists have started using machine learning and computer artificial intelligence to assess vehicle specific air pollution more accurately. One study claims that their Python coded machine learning process ConvLSTM (Convolutional Long Short-Term Memory) has a MRE (Mean Relative Error) of 38.9%. This may not sound impressive at first glance, but compared to the 63.2% using the previous Convolutional Neural Network (CNN) model this is a big step forward (Desai, Tayarani, & Gao, 2022). Without going into too much detail about the mathematical steps involved, we can at least visually compare old methods with this new machine learning technique. 
+
+In the image below, the CNN results are on the top and the new ConvLSTM results are on the bottom. We can clearly see much less error indicated in red.
+![1-s2 0-S1361920922003315-gr4](https://user-images.githubusercontent.com/127624785/233824503-efece80b-0f04-43bd-b161-b33081dcfec7.jpg)
+
 	
 Machine learning is not just useful for air pollution on a local scale, but also at a national or even global scale as well. The EPA, NASA, the Smithsonian Astrophysical Observatory (SOA), and the National Oceanic and Atmospheric Administration (NOAA) collaborated on a satellite named the Tropospheric Emissions: Monitoring of Pollution or TEMPO. TEMPO will have the ability to observe pollutants like nitrogen dioxide, sulfur dioxide and formaldehyde at much higher temporal and spatial resolutions than traditional weather based satellites (U.S. Epa, 2022). It will also allow scientists to better observe how pollutants evolve over hours, days, and even weeks as they interact with changing weather phenomena. 
 [](url)
@@ -23,7 +27,7 @@ Another method of measuring air pollution is through the development of SVMs or 
 References:
 
 
-Desai, S., Tayarani, M., & Gao, H. (2022). Developing Machine learning models for hyperlocal traffic related particulate matter concentration mapping. Transportation Research Part D-transport and Environment, 113, 103505. https://doi.org/10.1016/j.trd.2022.103505
+Desai, S., Tayarani, M., & Gao, H. (2022). Developing Machine learning models for hyperlocal traffic related particulate matter concentration mapping. Transportation Research Part D-transport and Environment, 113, 103505. 
 
 Humpe, A., Brehm, L., & Günzel, H. (2021). Forecasting Air Pollution in Munich: A Comparison of MLR, ANFIS, and SVM. In International Conference on Agents and Artificial Intelligence. https://doi.org/10.5220/0010184905000506
 
