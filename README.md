@@ -1,6 +1,5 @@
 # Computer Vision in Remote Sensing Air Pollution
 
-![](https://media.giphy.com/media/Ju7l5y9osyymQ/giphy.gif)
 
 We all use transportation methods in our everyday lives, and although they are incredibly valuable to us, they do carry hidden externalities. One of them being air pollution and this is even more impactful in large urban areas with huge numbers of people commuting every day. To measure potential exposure to this air pollution, originally simple methods were used. By calculating distance from persons to the roadways we could reasonably estimate one’s exposure to air pollution from vehicles. However, with the advent of GIS, our analyses could become more robust and allowing us to more accurately account for traffic density based on time of day as well, amongst other things. It has come to light though, that they may fail to accurately estimate exposure to vehicle emissions specifically, like nitrous oxide and carbon dioxides. 
 
