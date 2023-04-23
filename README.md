@@ -4,10 +4,13 @@
 
 We all use transportation methods in our everyday lives, and although they are incredibly valuable to us, they do carry hidden externalities. One of them being air pollution and this is even more impactful in large urban areas with huge numbers of people commuting every day. To measure potential exposure to this air pollution, originally simple methods were used. By calculating distance from persons to the roadways we could reasonably estimate one’s exposure to air pollution from vehicles. However, with the advent of GIS, our analyses could become more robust and allowing us to more accurately account for traffic density based on time of day as well, amongst other things. It has come to light though, that they may fail to accurately estimate exposure to vehicle emissions specifically, like nitrous oxide and carbon dioxides. 
 
+![traffic-how-close-are-we-to-flying-cars](https://user-images.githubusercontent.com/127624785/233824689-d866c496-06da-40a1-9fe2-3ce31d19ff07.gif)
+
 
 Scientists have started using machine learning and computer artificial intelligence to assess vehicle specific air pollution more accurately. One study claims that their Python coded machine learning process ConvLSTM (Convolutional Long Short-Term Memory) has a MRE (Mean Relative Error) of 38.9%. This may not sound impressive at first glance, but compared to the 63.2% using the previous Convolutional Neural Network (CNN) model this is a big step forward (Desai, Tayarani, & Gao, 2022). Without going into too much detail about the mathematical steps involved, we can at least visually compare old methods with this new machine learning technique. 
 
 In the image below, the CNN results are on the top and the new ConvLSTM results are on the bottom. We can clearly see much less error indicated in red.
+
 ![1-s2 0-S1361920922003315-gr4](https://user-images.githubusercontent.com/127624785/233824503-efece80b-0f04-43bd-b161-b33081dcfec7.jpg)
 
 	
