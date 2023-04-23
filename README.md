@@ -20,6 +20,9 @@ Machine learning is not just useful for air pollution on a local scale, but also
 
   
 Another way to measure air pollution is through the random forest technique. This technique creates a ‘forest’ of decision trees and uses them to make predictions based on the input features. So a simple forest might have 3 inputs and each input splits into 2 smaller branches, which each branch into 2 more branches which gives us a total of 8 possible choices to choose from for each input. During a study in Poland, it was found that during warmer periods, a random forest produces a better fit than in colder periods. However, this is likely not a universal fit and would differ depending on the climate factors in the study area. In random forest modeling, it was determined that when measuring for nitrogen oxides, the variable with the most importance is traffic flow unsurprisingly since these are expelled from internal combustion engines. When measuring for fine particulate matter (PM2.5), meteorological conditions are most important, particularly wind and temperature because these particles are so small and easily carried through wind flow (Kaminska, 2018). 
+
+![1-s2 0-S030147971830327X-fx1_lrg](https://user-images.githubusercontent.com/127624785/233824816-5d0501a9-cbbd-4fa2-832f-fec0582c509b.jpg)
+
  
 Another method of measuring air pollution is through the development of SVMs or Support Vector Machines. A very simplified explanation of SVMs would be that they divide datasets into two classes that are distinct and unique with a clearly divided separation. However, with data that has a lot of overlap it can be tricky to try and make a clear line of division. During one study in Munich that looked at vehicular air pollution and attempted to predict hourly air pollution, SVM was compared with other classification methods. It found that the SVM would likely work better when working with small amounts of data. A relatively small sample could be enough to build an effective model.  The study also found that ozone can be predicted most accurately, while nitrogen oxides are the hardest to predict. This is likely due to the short lifespan of nitrogen oxides compared to ozone (Humpe, Brehm & Gunzel, 2021).
 
@@ -35,5 +38,7 @@ Desai, S., Tayarani, M., & Gao, H. (2022). Developing Machine learning models fo
 Humpe, A., Brehm, L., & Günzel, H. (2021). Forecasting Air Pollution in Munich: A Comparison of MLR, ANFIS, and SVM. In International Conference on Agents and Artificial Intelligence. https://doi.org/10.5220/0010184905000506
 
 Kamińska, J. (2018). The use of random forests in modelling short-term air pollution effects based on traffic and meteorological conditions: A case study in Wrocław. Journal of Environmental Management, 217, 164–174. https://doi.org/10.1016/j.jenvman.2018.03.094
+
+Support Vector Machines: A Simple Explanation - KDnuggets. (n.d.). KDnuggets. https://www.kdnuggets.com/2016/07/support-vector-machines-simple-explanation.html
 
 TEMPO: A New Era of Air Quality Monitoring from Space | US EPA. (2022, July 6). US EPA. https://www.epa.gov/sciencematters/tempo-new-era-air-quality-monitoring-space
